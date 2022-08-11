@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#366473;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: 40px;
+    font-family: serif;
+    
+}
+.regform{
+    
+width: 800px;
+    
+background-color: #555;
+    
+margin: auto;
+    
+color: #fff;
+    
+padding: 10px 0px 10px 0px;
+    
+text-align: center;
+    
+border-radius: 15px 15px 0px 0px;
+    
+opacity: .6;
+}
+.main{
+    background-color: black;
+    width: 800px;
+    margin: auto;
+    opacity: .5;
+}
+form{
+    padding: 10px;
+}
+#name{
+    width: 100%;
+    height: 100px;
+}
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.firstname{
+    position: relative;
+    left: 180px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.lastname{
+    position: relative;
+    left: 417px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    bottom: 80px;
+}
+.firstlabel{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 203px;
+    top: -45px;
+}
+.lastlable{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 203px;
+    top: -45px;
+}
+.company{
+    position: relative;
+    left: 177px;
+    line-height: 40px;
+    width: 503px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    top: -33px;
+}
+.email{
+    position: relative;
+    left: 178px;
+    line-height: 40px;
+    width: 499px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    top: -33px;
+}
+.code{
+    position: relative;
+    left: 178px;
+    line-height: 40px;
+    width: 89px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    top: -33px;
+}
+.number{
+    position: relative;
+    left: 178px;
+    line-height: 40px;
+    width: 280px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    top: -33px;
+}
+.area_code{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 44px;
+}
+.phone_number{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: -150px;
+}
+.option{
+    position: relative;
+    left: 181px;
+    line-height:  40px;
+    width: 532px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+    top: -36px;
+}
+.option option{
+    font-size: 18px;
+}
+#coustomar{
+    margin-left: 25px;
+    color: white;
+    font-size: 20px;
+}
+.radio{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 21px;
+    margin-top: 15px;
+    color: #fff;
+}
+.radio input{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+button{
+    background-color: #3baf9f;
+    display: block;
+    margin: 20px 0 0 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #366473;
+    padding: 14px 110px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.25px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #5392f5;
+}
